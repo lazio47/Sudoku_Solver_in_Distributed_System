@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2024-06-07T15:39:44.198Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="p2--O0CuUT2b6o5vpg4X" version="24.5.2" type="device">
+  <diagram name="Page-1" id="afnOpXMc7StXMjpK_rV3">
+    <mxGraphModel dx="1797" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iMOvoIVxyvrUxq73TtLY-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="280" />
+              <mxPoint x="140" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-1" value="Peer A" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iMOvoIVxyvrUxq73TtLY-2" target="iMOvoIVxyvrUxq73TtLY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-2" value="Peer B" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-4" value="Initialize node" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-5" value="Connect to A with anchor" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iMOvoIVxyvrUxq73TtLY-6" target="iMOvoIVxyvrUxq73TtLY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iMOvoIVxyvrUxq73TtLY-6" target="iMOvoIVxyvrUxq73TtLY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="250" />
+              <mxPoint x="70" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-15" value="Distribute sudoku" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iMOvoIVxyvrUxq73TtLY-12">
+          <mxGeometry x="0.0014" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-6" value="Peer C" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-8" value="Connect to B with anchor" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-9" value="(Send connected peer list)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iMOvoIVxyvrUxq73TtLY-10" target="iMOvoIVxyvrUxq73TtLY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-10" value="Receives sudoku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="iMOvoIVxyvrUxq73TtLY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="240" as="sourcePoint" />
+            <mxPoint x="160" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-20" value="Distribute sudoku" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iMOvoIVxyvrUxq73TtLY-19">
+          <mxGeometry x="-0.2816" y="3" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.618;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iMOvoIVxyvrUxq73TtLY-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-135" y="250" as="sourcePoint" />
+            <mxPoint x="30" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-135" y="280" />
+              <mxPoint x="-60" y="280" />
+              <mxPoint y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="250" as="sourcePoint" />
+            <mxPoint x="70" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-25" value="KeepAlive packets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iMOvoIVxyvrUxq73TtLY-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-26" value="Node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-27" value="Checks" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-29" value="Self checks and permutations *" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iMOvoIVxyvrUxq73TtLY-31" value="Solved sudoku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

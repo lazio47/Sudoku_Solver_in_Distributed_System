@@ -5,3 +5,5 @@ A explicacao do protocolo mostrado em parte em protocolo.jpeg está no relatóri
 ----------------------------------------------------------------
 As instrucoes estao na pasta ./extras no ficheiro "Projecto CD 2024.pdf"
 ----------------------------------------------------------------
+
+qualquer alteração 
